@@ -1,0 +1,62 @@
+.project-tile {
+  width: 320px;
+  height: 354px;
+
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+}
+.project-image {
+  width: 600px;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+  object-fit: cover;
+}
+
+.project-tile:hover .project-image {
+  transform: scale(1.4) rotate(5deg);
+}
+
+.project-details {
+  color: white;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+}
+.project-tile:hover .project-title {
+  background-color: #000a;
+}
+.project-tile:hover .project-description {
+  background-color: #000a;
+}
+.project-title {
+  font-family: "Space Grotesk", sans-serif;
+  top: 10px;
+  width: 100%;
+  padding: 1rem;
+  background-color: #0004;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.project-description {
+  font-family: "", sans-serif;
+  font-family: "Space Mono", monospace;
+  bottom: 0px;
+  position: absolute;
+  padding: 1rem;
+  background-color: #0004;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+  font-family: "Space mono", sans-serif;
+}
+
+@media screen and (min-width: 430px) {
+  .project-tile {
+    min-width: 600px;
+    height: 420px;
+    margin:1rem;
+  }
+}

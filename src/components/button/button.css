@@ -1,0 +1,20 @@
+.submit-button{
+    border-radius: 20px;
+    background-color: #2152FF;
+    color:white;
+    border:none;
+    font-size: 24px;
+    width:288px;
+    height: 90px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@media screen  and (max-width:438px){
+    .submit-button{
+        border-radius: 20px;
+        background-color: #2152FF;
+        font-size: 14px;
+        width:190px;
+        height: 60px;
+    }
+}
