@@ -1,0 +1,26 @@
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    color:darkblue;
+    border:2px solid white;
+    width: 90%;
+    margin:1rem 0rem;
+    border-radius: 20px;
+    padding:1rem;
+    height: 20rem;
+}
+.service-icon{    
+    color: black;
+    text-align: center;
+}
+h2.service-title{
+    font-size: 1.5rem;
+    color:black;
+    margin:0;
+}
+.service-description{
+    color:grey;
+}
